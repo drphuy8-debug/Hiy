@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/fixlagbyhdanh.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tqhhub/tqhhub/refs/heads/main/fixlagbytqh.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhDangNhoEm/TuanAnhIOS/refs/heads/main/koby"))()
 
 -- ==========================================
@@ -62,10 +62,9 @@ local plr = Player
 local Root = HumanoidRootPart
 
 -- ==========================================
--- LOAD UI LIBRARY (HDanh Hub)
+-- LOAD UI LIBRARY (TQH Hub)
 -- ==========================================
-Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/UI/refs/heads/main/ui_BananaHub_final.lua"))()
-
+Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tqhhub/UI/refs/heads/main/ui_BananaHub_final.lua"))()
 Window = Library:CreateWindow({
     Title = "TQH",
     Desc = "- Blox Fruit",
