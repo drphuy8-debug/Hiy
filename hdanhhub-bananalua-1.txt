@@ -2960,7 +2960,7 @@ Tabs.Info:AddButton({
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
+    ["Title"] = "TQH Hub",
     ["Description"] = "Tiktok",
     ["Callback"] = function()
         setclipboard(tostring("www.tiktok.com"))
